@@ -55,16 +55,21 @@
             true si hay inclusion y false el caso contrario.</li>
     </ol>
   </ul>
-
-  <tr><td><strong>III. CONCLUSIONES:</strong><br>
+    <tr><td><strong>III. CUESTIONARIO:</strong><br>
+        <h3>¿Cuantas variantes del algoritmo de Dijkstra hay y cuál es la diferencia entre ellas?</h3><br>
         ...
-  </td></tr>
+        <h3>Invetigue sobre los ALGORITMOS DE CAMINOS MINIMOS e indique, ¿Qué similitudes encuentra, qué diferencias, en qué casos utilizar y porque?</h3><br>
+        ...
+    </td></tr>
+    <tr><td><strong>IV. CONCLUSIONES:</strong><br>
+        ...
+    </td></tr>
  </tbody>
 </table>
 <hr>
 <table>
  <theader>
-  <tr><td><strong>III. RETROALIMENTACIÓN GENERAL</strong><br>
+  <tr><td><strong>V. RETROALIMENTACIÓN GENERAL</strong><br>
   </td><tr>
  </theader>
  <tbody>
