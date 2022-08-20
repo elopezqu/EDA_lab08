@@ -49,8 +49,8 @@
             posición. Por ejemplo, las cords y los corps son adyacentes, mientras que los
             corps y crops no lo son.</li>
             a) Dibuje el grafo definido por las siguientes palabras: words cords corps coops
-               crops drops drips grips gripe grape graph.
-            b) Mostrar la lista de adyacencia del grafo.
+               crops drops drips grips gripe grape graph.<img src="Ejercicio4/ImagenesEjercicio4/MatrizDeAdyacencia.jpeg"/>
+            b) Mostrar la lista de adyacencia del grafo.<img src="Ejercicio4/ImagenesEjercicio4/MatrizDeAdyacencia.jpeg"/>
         <li>Realizar un metodo en la clase Grafo. Este metodo permitira saber si un grafo esta
             incluido en otro. Los parametros de entrada son 2 grafos y la salida del metodo es
             true si hay inclusion y false el caso contrario.</li>
