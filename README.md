@@ -52,10 +52,10 @@
             
             a) Dibuje el grafo definido por las siguientes palabras: words cords corps coops
                crops drops drips grips gripe grape graph.
-               <img src="Ejercicio4/ImagenesEjercicio4/grafoDibujo.jpeg"/>
+            <img src="Ejercicio4/ImagenesEjercicio4/grafoDibujo.jpeg"/>
 
             b) Mostrar la lista de adyacencia del grafo.
-               <img src="Ejercicio4/ImagenesEjercicio4/MatrizDeAdyacencia.jpeg"/>
+            <img src="Ejercicio4/ImagenesEjercicio4/MatrizDeAdyacencia.jpeg"/>
             </p>
         </li>
         
