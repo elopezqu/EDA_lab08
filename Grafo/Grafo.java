@@ -34,7 +34,7 @@ public class Grafo {
         for(Node node : cabezas){
             aux += "Vertice: "+node.getNombre();
             for(int index : node.getAdya()){
-                aux += " ---> "+ cabezas.get(index);
+                aux += " ---> "+ cabezas.get(index).getNombre();
             }
             aux += "\n";
         }
