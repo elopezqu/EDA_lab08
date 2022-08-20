@@ -1,30 +1,22 @@
 package Grafo;
 
-import java.util.LinkedList;
+import java.util.ArrayList;
 
 public class Node {
     private String nombre;
-    private int index;
-    private LinkedList<Arista> adya;
+    private ArrayList<Integer> adya;
 
     public Node(String nombre){
         this.nombre = nombre;
-        this.index = -1;
-        this.adya = new LinkedList<Arista>();
+        this.adya = new ArrayList<Integer>();
     }
     public String getNombre(){
         return this.nombre;
     }
-    public boolean equals(Node n){
-        return this.nombre.equals(n.getNombre());
+    public void setAdya(int i){
+        this.adya.add(i);
     }
-    public void setNode(int index){
-        this.index = index;
-    }
-    public LinkedList<Arista> getAdaya(){
+    public ArrayList<Integer> getAdya(){
         return this.adya;
-    }
-    public String toString(){
-        return this.nombre;
     }
 }
