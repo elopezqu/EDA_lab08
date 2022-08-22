@@ -57,7 +57,7 @@
   </ul>
     <tr><td><strong>III. CUESTIONARIO:</strong><br>
         <h3>¿Cuantas variantes del algoritmo de Dijkstra hay y cuál es la diferencia entre ellas?</h3><br>
-        
+        ...
         <h3>Invetigue sobre los ALGORITMOS DE CAMINOS MINIMOS e indique, ¿Qué similitudes encuentra, qué diferencias, en qué casos utilizar y porque?</h3><br>
         Exiten 2 algoritmos para buscar el camino más corto: el Algoritmo Floyd-Warshall y el de Dijkstra.<br>
         - Algoritmo de Dijkstra: Es un algoritmo para la determinación del camino más corto, dado un vértice origen, hacia el resto de los vértices en un grafo que tiene pesos en cada arista.<br>
