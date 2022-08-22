@@ -106,7 +106,10 @@
         fin función.
         </pre>
         <h3>Invetigue sobre los ALGORITMOS DE CAMINOS MINIMOS e indique, ¿Qué similitudes encuentra, qué diferencias, en qué casos utilizar y porque?</h3><br>
-        ...
+        Exiten 2 algoritmos para buscar el camino más corto: el Algoritmo Floyd-Warshall y el de Dijkstra.<br>
+        - Algoritmo de Dijkstra: Es un algoritmo para la determinación del camino más corto, dado un vértice origen, hacia el resto de los vértices en un grafo que tiene pesos en cada arista.<br>
+        Algortitmo de Floyd-Warshall: Es un algoritmo de análisis sobre grafos para encontrar el camino mínimo en grafos dirigidos ponderados. El algoritmo encuentra el camino entre todos los pares de vértices en una única ejecución.<br>
+        Como se puede notar la principal diferencia es que el algoritmo de Floyd-Warshall nos halla el camino camino mas corto dado 2 vertices, mientras que el algoritmo de Dijkstra nos halla TODOS los caminos más cortos de un vértice hacia los demás. 
     </td></tr>
     <tr><td><strong>IV. CONCLUSIONES:</strong><br>
         ...
@@ -121,7 +124,14 @@
  </theader>
  <tbody>
   <tr><td> 
-        ... 
+        Un grafo es la suma de un conjunto de vertices o nodos que se relacionan con otros
+        a traves de un conjunto de conexiones conocidas como aristas. Estos nos permiten estudiar 
+        relaciones que existen entre unidades que interactuan con otras.
+        Podemos darles muchos usos por ejemplo, para encontrar el menor camino de un lugar a otro usando 
+        el algoritmo Dijkstra como lo hemos implementado o usando otros algoritmos como el de Floyd y Warshall
+        (estos ultimos buscan el camino mas corto usando grafos etiquetados o ponderados), tambien podemos darle
+        un uso para sitemas de informacion geografica, para dibujo computacional, sintesis de circuitos secuenciales,
+        etc.
   </td></tr>
  </tbody>
 </table>
@@ -131,9 +141,9 @@
   <tr><td><strong>REFERENCIAS Y BIBLIOGRAFÍA</strong></td><tr>
  </theader>
  <tbody>
-  <tr><td>...</td></tr>
-  <tr><td>...</td></tr>
-  <tr><td>...</td></tr>
-  <tr><td>...</td></tr>
+  <tr><td>https://delfino.cr/2021/11/la-utilidad-y-aplicacion-de-los-grafos-y-sistemas-de-informacion-geografica</td></tr>
+  <tr><td>https://www.ecured.cu/Algoritmo_de_Dijkstra</td></tr>
+  <tr><td>https://www.grapheverywhere.com/que-son-los-grafos/</td></tr>
+  <tr><td>https://www2.ulpgc.es/hege/almacen/download/25/25317/teoriadegrafos.pdf</td></tr>
  </tbody>
 </table>
