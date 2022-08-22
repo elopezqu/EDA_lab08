@@ -81,7 +81,7 @@
         <h4> <em>getRoute():</em> Este método agrega la ruta del recorrido mínimo en la Lista "route".</h4>
         <h4> <em>Dijkstra():</em> Nos ejetura el algoritmo de Dijkstra usando nuestro min-heap como apoyo para el algoritmo.</h4>
         <img src="ejercicio3/Dijkstra/imagenes/main.PNG"><br>
-        Representa el siguiente grafo:
+        Representa el siguiente grafo:<br>
         <img src="ejercicio3/Dijkstra/imagenes/miGrafo.png"><br>
         <img src="ejercicio3/Dijkstra/imagenes/resultado.PNG"><br>
         <li>El grafo de palabras se define de la siguiente manera: cada vértice es una palabra
