@@ -74,7 +74,14 @@
  </theader>
  <tbody>
   <tr><td> 
-        ... 
+        Un grafo es la suma de un conjunto de vertices o nodos que se relacionan con otros
+        a traves de un conjunto de conexiones conocidas como aristas. Estos nos permiten estudiar 
+        relaciones que existen entre unidades que interactuan con otras.
+        Podemos darles muchos usos por ejemplo, para encontrar el menor camino de un lugar a otro usando 
+        el algoritmo Dijkstra como lo hemos implementado o usando otros algoritmos como el de Floyd y Warshall
+        (estos ultimos buscan el camino mas corto usando grafos etiquetados o ponderados), tambien podemos darle
+        un uso para sitemas de informacion geografica, para dibujo computacional, sintesis de circuitos secuenciales,
+        etc.
   </td></tr>
  </tbody>
 </table>
@@ -84,9 +91,9 @@
   <tr><td><strong>REFERENCIAS Y BIBLIOGRAFÍA</strong></td><tr>
  </theader>
  <tbody>
-  <tr><td>...</td></tr>
-  <tr><td>...</td></tr>
-  <tr><td>...</td></tr>
-  <tr><td>...</td></tr>
+  <tr><td>https://delfino.cr/2021/11/la-utilidad-y-aplicacion-de-los-grafos-y-sistemas-de-informacion-geografica</td></tr>
+  <tr><td>https://www.ecured.cu/Algoritmo_de_Dijkstra</td></tr>
+  <tr><td>https://www.grapheverywhere.com/que-son-los-grafos/</td></tr>
+  <tr><td>https://www2.ulpgc.es/hege/almacen/download/25/25317/teoriadegrafos.pdf</td></tr>
  </tbody>
 </table>
