@@ -13,7 +13,7 @@ public class Grafo {
             adjList.add(new ArrayList<>());
         }
  
-        // agrega bordes al grafo dirigido
+        // agrega aristas al grafo dirigido
         for (Arista edge: aristas) {
             adjList.get(edge.inicio).add(edge);
         }

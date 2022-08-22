@@ -10,9 +10,9 @@ public class Main{
         g.addArista(3, 3);
         System.out.println("Matriz de adyacencia: ");
         g.mostrarMatrizAdy();
-        System.out.println("DFS comenzado en el vertice 2: ");
+        System.out.println("DFS comenzado en el vértice 2: ");
         g.DFS(2);
-        System.out.println("BFS comenzado en el vertice 2: ");
+        System.out.println("\nBFS comenzado en el vértice 2: ");
         g.BFS(2);
 	}
 }
