@@ -9,6 +9,11 @@ public class Grafo {
         cabezas = new ArrayList<Node>();
     }
 
+    public ArrayList<Node> getArray(){
+        ArrayList<Node>aux = cabezas;
+        return aux;
+    }
+
     public int buscarIndex(String nombre) {
         for (int i = 0; i < cabezas.size(); i++) {
             if (cabezas.get(i).getNombre().equals(nombre)) {
@@ -40,5 +45,7 @@ public class Grafo {
         }
         return aux;
     }
+
+    public boolean isIncluded(Grafo a, Grafo b){return false;}
 
 }
