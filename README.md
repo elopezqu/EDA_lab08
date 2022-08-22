@@ -56,7 +56,7 @@
         <h4> <em>DFS():</em> Crea el arreglo de booleanos y utiliza a la funcion recursiva DFSUtil.</h4>
         <h4> <em>BFS():</em> El método crea un arreglo de booleanos(para verificar si el vértice fue recorrido), crea una cola para ir desencolado cuando el vértice se halla recorrido y por último recorre la lista de adyacencia realizando el procedimiento.  </h4>
         <img src="ejercicio3/DFSyBFS/imagenes/main.PNG"><br>
-        Representa el siguiente grafo:
+        Representa el siguiente grafo:<br>
         <img src="ejercicio3/DFSyBFS/imagenes/grafo.PNG"><br>
         <img src="ejercicio3/DFSyBFS/imagenes/resultado.PNG"><br>
         <h1>Dijkstra</h1>
