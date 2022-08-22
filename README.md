@@ -42,6 +42,22 @@
   <ul>
     <ol>
         <li>Implementar codigo de Grafo(Lista de Adyacencia)</li>
+        <h3>Se utilizaron tres clase</h3>
+        La clase <em>Node</em>, <em>Grafo</em> y <em>Test</em><br>
+        <img src="Grafo/img/clases.png"><br>
+        Para guardar los nodos <strong>adyacentes</strong> se utilizó la estructura<br>
+        <pre>ArrayList< Integer > = new ArrayList< Integer >();</pre>
+        Se usa este Array para contener indices, los indices indican la posición de los <strong>Nodos</strong> respectivos, que se encuentran el Array de la clase Grafo<br>
+        <pre>ArrayList< Node > = new ArrayList< Node >();</pre>
+        El código que inicia la aplicación se encuentra en <em>Test</em>, para correr la aplicación se necesita dos identificar los nodos del grafo y la direccion de cada uno como se muestra en la siguiente imagen: 
+        Se crea los nodos, como entrada necesita un String<br>
+        <img src="Grafo/img/nodo.png"><br>
+        Se conecta los nodos según corresponda,(nodo inicial, nodo final)<br>
+        <img src="Grafo/img/relacion.png"><br>
+        Al final se manda a imprimir el grafo, y el resultado es el siguiente:<br>
+        <img src="Grafo/img/resultado.png">
+        Otros resultados con letras envés de números<br>
+        <img src="Grafo/img/resultado2.png">
         <li>Implementar BSF,DFS y Difkstra</li>
         <h1>BSF Y DFS</h1>
         <h2>Clase Grafo:</h2>
