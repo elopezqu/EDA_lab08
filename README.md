@@ -64,13 +64,13 @@
         <h3>Atributos:</h3>
         <em>inicio:</em> Vértice donde inicia la arista.<br>
         <em>destino:</em> Destino de la arista.
-        <em>peso:</em> El peso de la arista.
+        <em>peso:</em> El peso de la arista.<br>
         <img src="ejercicio3/Dijkstra/imagenes/arista.PNG"><br>
         <h2>Clase Nodo:</h2>
         Esta clase nos sirve como ayuda para hacer un min-heap para realizar con mayor facilidad el algoritmo.
         <h3>Atributos:</h3>
         <em>vertex:</em> Representa el vértice.<br>
-        <em>weight:</em> Representa el costo para llegar al vértice.
+        <em>weight:</em> Representa el costo para llegar al vértice.<br>
         <img src="ejercicio3/Dijkstra/imagenes/nodo.PNG"><br>
         <h2>Clase Grafo:</h2>
         <h3>Atributos:</h3>
