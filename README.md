@@ -56,6 +56,8 @@
         <h4> <em>DFS():</em> Crea el arreglo de booleanos y utiliza a la funcion recursiva DFSUtil.</h4>
         <h4> <em>BFS():</em> El método crea un arreglo de booleanos(para verificar si el vértice fue recorrido), crea una cola para ir desencolado cuando el vértice se halla recorrido y por último recorre la lista de adyacencia realizando el procedimiento.  </h4>
         <img src="ejercicio3/DFSyBFS/imagenes/main.PNG"><br>
+        Representa el siguiente grafo:
+        <img src="ejercicio3/DFSyBFS/imagenes/grafo.PNG"><br>
         <img src="ejercicio3/DFSyBFS/imagenes/resultado.PNG"><br>
         <h1>Dijkstra</h1>
         <h2>Clase Arista:</h2>
@@ -79,6 +81,8 @@
         <h4> <em>getRoute():</em> Este método agrega la ruta del recorrido mínimo en la Lista "route".</h4>
         <h4> <em>Dijkstra():</em> Nos ejetura el algoritmo de Dijkstra usando nuestro min-heap como apoyo para el algoritmo.</h4>
         <img src="ejercicio3/Dijkstra/imagenes/main.PNG"><br>
+        Representa el siguiente grafo:
+        <img src="ejercicio3/Dijkstra/imagenes/miGrafo.PNG"><br>
         <img src="ejercicio3/Dijkstra/imagenes/resultado.PNG"><br>
         <li>El grafo de palabras se define de la siguiente manera: cada vértice es una palabra
             en el idioma Inglés y dos palabras son adyacentes si difieren exactamente en una
