@@ -41,23 +41,7 @@
   <tr><td><strong>I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS:</strong><br>
   <ul>
     <ol>
-        <li><h2>Implementar codigo de Grafo(Lista de Adyacencia)</h2></li>
-        <h3>Se utilizaron tres clase</h3>
-        La clase <em>Node</em>, <em>Grafo</em> y <em>Test</em><br>
-        <img src="Grafo/img/clases.png"><br>
-        Para guardar los nodos <strong>adyacentes</strong> se utilizó la estructura<br>
-        <pre>ArrayList< Integer > = new ArrayList< Integer >();</pre>
-        Se usa este Array para contener indices, los indices indican la posición de los <strong>Nodos</strong> respectivos, que se encuentran el Array de la clase Grafo<br>
-        <pre>ArrayList< Node > = new ArrayList< Node >();</pre>
-        El código que inicia la aplicación se encuentra en <em>Test</em>, para correr la aplicación se necesita dos identificar los nodos del grafo y la direccion de cada uno como se muestra en la siguiente imagen: 
-        Se crea los nodos, como entrada necesita un String<br>
-        <img src="Grafo/img/nodo.png"><br>
-        Se conecta los nodos según corresponda,(nodo inicial, nodo final)<br>
-        <img src="Grafo/img/relacion.png"><br>
-        Al final se manda a imprimir el grafo, y el resultado es el siguiente:<br>
-        <img src="Grafo/img/resultado.png">
-        Otros resultados con letras envés de números<br>
-        <img src="Grafo/img/resultado2.png">
+        <li>Implementar codigo de Grafo(Lista de Adyacencia)</li>
         <li>Implementar BSF,DFS y Difkstra</li>
         <li>El grafo de palabras se define de la siguiente manera: cada vértice es una palabra
             en el idioma Inglés y dos palabras son adyacentes si difieren exactamente en una
@@ -66,9 +50,34 @@
             a) Dibuje el grafo definido por las siguientes palabras: words cords corps coops
                crops drops drips grips gripe grape graph.
             b) Mostrar la lista de adyacencia del grafo.
-        <li>Realizar un metodo en la clase Grafo. Este metodo permitira saber si un grafo esta
+        <li><h2>Realizar un metodo en la clase Grafo. Este metodo permitira saber si un grafo esta
             incluido en otro. Los parametros de entrada son 2 grafos y la salida del metodo es
-            true si hay inclusion y false el caso contrario.</li>
+            true si hay inclusion y false el caso contrario.</h2></li>
+            <h3>Se utilizo como ejemplo el codigo del problema numero 1</h3>
+            <img src="problema5/img/Clases.png"><br>
+            Se agrego un metodo el cual devuelve el arreglo de vertices o nodos<br>
+            <img src="problema5/img/getArray.png"><br>
+            Luego se empezo a crear el codigo tomando en cuenta estos puntos: (a) Cuando existe un vertice o nodo el cual
+            no este conectado con ninguno, (b) Cuando en el grafo original existe un camino de v1 hacia v2, pero el grafo a comparar posee de 
+            v2 hacia v1 (al ser diferentes caminos se retornara false), (c) Cuando el grafo a comparar posee un vertice el cual no este dentro del original, 
+            (d) Cuando un nodo o vertice posee una conexion extra hacia otro que el graf original no tiene.<br>
+            <img src="problema5/img/isIncluded1.png"><br>
+            A continuacion tenemos el booleano result el cual vamos a usar para retornar, 
+            luego un foreach el cual va a iterar entre todos los vertices o nodos del grafo b (el grafo a verificar), siguiendo de una condicion la cual va a buscar si el vertice existe en el grafo original, si cumple retorna false y termina el metodo, en caso contrario va a verificar si el vertice esta aislado de todo el grafo para de igual manera retornar false, en caso contrario continua con el codigo.<br>
+            <img src="problema5/img/isIncluded2.png"><br>
+            luego de pasar el primer filtro, creamos 2 arrays los cuales seran las conexiones que posee el vertice original (aux1) y el vertice a comparar (aux2), luego ingresara en los 2 for siguientes para llenarlos y despues un if el cual verificara si el vertice a comparar posee mas conexiones que la original, si cumple esto, detiene todo el codigo y va a retornar false.<br>
+            <img src="problema5/img/isIncluded3.png"><br>
+            Por ultimo va a verificar las conexiones y que estas esten dentro del original, con ayuda de una bandera para verificar si es que tiene una conexion extra, en este caso retorna false y por ultimo un if el cual verifica el boolean result y lo retorna.<br>
+            <h3>Ejemplo de Ejecucion y de uso</h3>
+            Creamos nuestros grafos y sus vertices<br>
+            <img src="problema5/img/ejemplo1.png"><br>
+            Realizamos las conexiones<br>
+            <img src="problema5/img/ejemplo2.png"><br>
+            Ahora llamos al metodo dentro de un print para que imprima el valor booleano y como primer parametro nuestro grafo original, y como segundo parametro el grafo a comparar y obtenemos esto (nos deberia retornar true, ya que el grafo b posee 3 vertices que estan dentro del grafo original y con sus conexiones entre los 3 sin dejar uno aislado y tampoco una conexion extra):<br>
+            <img src="problema5/img/ejemplo3.png"><br>
+
+
+
     </ol>
   </ul>
     <tr><td><strong>III. CUESTIONARIO:</strong><br>
