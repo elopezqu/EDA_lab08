@@ -61,12 +61,12 @@
             no este conectado con ninguno, (b) Cuando en el grafo original existe un camino de v1 hacia v2, pero el grafo a comparar posee de 
             v2 hacia v1 (al ser diferentes caminos se retornara false), (c) Cuando el grafo a comparar posee un vertice el cual no este dentro del original, 
             (d) Cuando un nodo o vertice posee una conexion extra hacia otro que el graf original no tiene.<br>
-            <img src="problema5/img/isIncluded1.png"><br>
+            <img src="problema5/img/isIncludedp1.png"><br>
             A continuacion tenemos el booleano result el cual vamos a usar para retornar, 
             luego un foreach el cual va a iterar entre todos los vertices o nodos del grafo b (el grafo a verificar), siguiendo de una condicion la cual va a buscar si el vertice existe en el grafo original, si cumple retorna false y termina el metodo, en caso contrario va a verificar si el vertice esta aislado de todo el grafo para de igual manera retornar false, en caso contrario continua con el codigo.<br>
-            <img src="problema5/img/isIncluded2.png"><br>
+            <img src="problema5/img/isIncludedp2.png"><br>
             luego de pasar el primer filtro, creamos 2 arrays los cuales seran las conexiones que posee el vertice original (aux1) y el vertice a comparar (aux2), luego ingresara en los 2 for siguientes para llenarlos y despues un if el cual verificara si el vertice a comparar posee mas conexiones que la original, si cumple esto, detiene todo el codigo y va a retornar false.<br>
-            <img src="problema5/img/isIncluded3.png"><br>
+            <img src="problema5/img/isIncludedp3.png"><br>
             Por ultimo va a verificar las conexiones y que estas esten dentro del original, con ayuda de una bandera para verificar si es que tiene una conexion extra, en este caso retorna false y por ultimo un if el cual verifica el boolean result y lo retorna.<br>
             <h3>Ejemplo de Ejecucion y de uso</h3>
             Creamos nuestros grafos y sus vertices<br>
