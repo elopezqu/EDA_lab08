@@ -84,16 +84,14 @@
         Representa el siguiente grafo:<br>
         <img src="ejercicio3/Dijkstra/imagenes/miGrafo.png"><br>
         <img src="ejercicio3/Dijkstra/imagenes/resultado.PNG"><br>
-        <li>El grafo de palabras se define de la siguiente manera: cada vértice es una palabra
-            en el idioma Inglés y dos palabras son adyacentes si difieren exactamente en una
-            posición. Por ejemplo, las cords y los corps son adyacentes, mientras que los
-            corps y crops no lo son.</li>
-            a) Dibuje el grafo definido por las siguientes palabras: words cords corps coops
-               crops drops drips grips gripe grape graph.
-            b) Mostrar la lista de adyacencia del grafo.
-        <li><h2>Realizar un metodo en la clase Grafo. Este metodo permitira saber si un grafo esta
-            incluido en otro. Los parametros de entrada son 2 grafos y la salida del metodo es
-            true si hay inclusion y false el caso contrario.</h2></li>
+        <li>El grafo de palabras se define de la siguiente manera: cada vértice es una palabra en el idioma Inglés y dos palabras son adyacentes si difieren exactamente en una posición. Por ejemplo, las cords y los corps son adyacentes, mientras que los corps y crops no lo son.</li><br>
+        a) Dibuje el grafo definido por las siguientes palabras: words cords corps coops crops drops drips grips gripe grape graph.
+        <h2>Realizar un metodo en la clase Grafo. Este metodo permitira saber si un grafo esta
+        crops drops drips grips gripe grape graph.<br><img src="Ejercicio4/ImagenesEjercicio4/grafoDibujo.jpeg"/><br>
+        b) Mostrar la lista de adyacencia del grafo.<br><img src="Ejercicio4/ImagenesEjercicio4/MatrizDeAdyacencia.jpeg"/>
+        <li>Realizar un metodo en la clase Grafo. Este metodo permitira saber si un grafo esta
+        incluido en otro. Los parametros de entrada son 2 grafos y la salida del metodo es
+        true si hay inclusion y false el caso contrario.</h2></li>
             <h3>Se utilizo como ejemplo el codigo del problema numero 1</h3>
             <img src="problema5/img/Clases.png"><br>
             Se agrego un metodo el cual devuelve el arreglo de vertices o nodos<br>
@@ -116,10 +114,6 @@
             <img src="problema5/img/ejemplo2.png"><br>
             Ahora llamos al metodo dentro de un print para que imprima el valor booleano y como primer parametro nuestro grafo original, y como segundo parametro el grafo a comparar y obtenemos esto (nos deberia retornar true, ya que el grafo b posee 3 vertices que estan dentro del grafo original y con sus conexiones entre los 3 sin dejar uno aislado y tampoco una conexion extra):<br>
             <img src="problema5/img/ejemplo3.png"><br>
-
-
-
-    </ol>
   </ul>
     <tr><td><strong>III. CUESTIONARIO:</strong><br>
         <h3>¿Cuantas variantes del algoritmo de Dijkstra hay y cuál es la diferencia entre ellas?</h3><br>
