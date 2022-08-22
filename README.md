@@ -62,7 +62,7 @@
         Exiten 2 algoritmos para buscar el camino más corto: el Algoritmo Floyd-Warshall y el de Dijkstra.<br>
         - Algoritmo de Dijkstra: Es un algoritmo para la determinación del camino más corto, dado un vértice origen, hacia el resto de los vértices en un grafo que tiene pesos en cada arista.<br>
         Algortitmo de Floyd-Warshall: Es un algoritmo de análisis sobre grafos para encontrar el camino mínimo en grafos dirigidos ponderados. El algoritmo encuentra el camino entre todos los pares de vértices en una única ejecución.<br>
-        Como se puede notar la principal diferencia es que el algoritmo de Floyd-Warshall nos halla el camino camino mas corto dado 2 vertices, mientras que el algoritmo de Dijkstra nos halla los caminos más cortos hacia TODOS los vertices, dado uno en específico.
+        Como se puede notar la principal diferencia es que el algoritmo de Floyd-Warshall nos halla el camino camino mas corto dado 2 vertices, mientras que el algoritmo de Dijkstra nos halla TODOS los caminos más cortos de un vértice hacia los demás. 
         
     </td></tr>
     <tr><td><strong>IV. CONCLUSIONES:</strong><br>
