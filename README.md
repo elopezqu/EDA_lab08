@@ -172,7 +172,11 @@
         Como se puede notar la principal diferencia es que el algoritmo de Floyd-Warshall nos halla el camino camino mas corto dado 2 vertices, mientras que el algoritmo de Dijkstra nos halla TODOS los caminos más cortos de un vértice hacia los demás. 
     </td></tr>
     <tr><td><strong>IV. CONCLUSIONES:</strong><br>
-        ...
+        En esta práctica se notó la implementación de grafos en código además se trató con sus elementos(aristas, nodos, etc) y se mostraron detalles como la inclusión de grafos dentro otros y representaciones grafos. 
+
+Se nota que los grafos se forman a partir de relaciones entre los nodos, también se usa la matriz de adyacencia para representar un grafo a partir de la conexión entre nodos, esta matriz puede ser una buena representación sin embargo su almacenamiento es de O(n²) que puede no ser conveniente.
+
+A partir de los algoritmos de caminos mínimos tratados se rescata que todos pueden ser bastante eficientes de acuerdo a determinados casos a los que se apliquen.
     </td></tr>
  </tbody>
 </table>
