@@ -57,7 +57,54 @@
   </ul>
     <tr><td><strong>III. CUESTIONARIO:</strong><br>
         <h3>¿Cuantas variantes del algoritmo de Dijkstra hay y cuál es la diferencia entre ellas?</h3><br>
-        ...
+        Las version del algoritmo de Diskstra son muchas por el hecho de ser un algoritmo antiguo y van apareciendo nuevas versiones, ejemplo de ello son:
+        Estructura de datos cola de prioridad(Pseudocódigo)
+        <pre>
+        DIJKSTRA (Grafo G, nodo_fuente s)       
+           para u ∈ V[G] hacer
+              distancia[u] = INFINITO
+              padre[u] = NULL
+              visto[u] = false
+          distancia[s] = 0
+          adicionar (cola, (s, distancia[s]))
+          mientras que cola no es vacía hacer
+              u = extraer_mínimo(cola)
+              visto[u] = true
+              para todos v ∈ adyacencia[u] hacer
+                 si ¬ visto[v]      
+                    si distancia[v] > distancia[u] + peso (u, v) hacer
+                        distancia[v] = distancia[u] + peso (u, v)
+                        padre[v] = u
+                        adicionar(cola,(v, distancia[v]))
+        </pre>
+        Otro es çla version sin cola de prioridad(Pseudocódigo)
+        <pre>
+        función Dijkstra (Grafo G, nodo_salida s)
+            entero distancia[n] 
+            //Inicializamos el vector con distancias iniciales
+            booleano visto[n] 
+            //vector de boleanos para controlar los vértices de los que ya tenemos la distancia mínima
+            para cada w ∈ V[G] hacer
+                Si (no existe arista entre s y w) entonces
+                    distancia[w] = Infinito //puedes marcar la casilla con un -1 por ejemplo
+                Si_no
+                    distancia[w] = peso (s, w)
+                fin si 
+            fin para
+            distancia[s] = 0
+            visto[s] = cierto
+            //n es el número de vértices que tiene el Grafo
+            mientras que (no_estén_vistos_todos) hacer 
+                vértice = tomar_el_mínimo_del_vector distancia y que no esté visto;
+                visto[vértice] = cierto;
+                para cada w ∈ sucesores (G, vértice) hacer
+                    si distancia[w]>distancia[vértice]+peso (vértice, w) entonces
+                        distancia[w] = distancia[vértice]+peso (vértice, w)
+                    fin si
+                fin para 
+            fin mientras
+        fin función.
+        </pre>
         <h3>Invetigue sobre los ALGORITMOS DE CAMINOS MINIMOS e indique, ¿Qué similitudes encuentra, qué diferencias, en qué casos utilizar y porque?</h3><br>
         ...
     </td></tr>
