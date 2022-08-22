@@ -82,7 +82,7 @@
         <h4> <em>Dijkstra():</em> Nos ejetura el algoritmo de Dijkstra usando nuestro min-heap como apoyo para el algoritmo.</h4>
         <img src="ejercicio3/Dijkstra/imagenes/main.PNG"><br>
         Representa el siguiente grafo:
-        <img src="ejercicio3/Dijkstra/imagenes/miGrafo.PNG"><br>
+        <img src="ejercicio3/Dijkstra/imagenes/miGrafo.png"><br>
         <img src="ejercicio3/Dijkstra/imagenes/resultado.PNG"><br>
         <li>El grafo de palabras se define de la siguiente manera: cada vértice es una palabra
             en el idioma Inglés y dos palabras son adyacentes si difieren exactamente en una
